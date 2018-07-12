@@ -6,8 +6,8 @@ chrome.extension.sendMessage({}, function(response) {
       var timer;
 
       if (document.querySelector(".header") &&
-        document.querySelector(".header").innerText.indexOf("now") &&
-        document.querySelectorAll(".time").length == 2) {
+          document.querySelector(".header").innerText.indexOf("now") &&
+          document.querySelectorAll(".time").length == 2) {
         timer = setInterval(loop, 10);
         console.log("active game detected");
       } else {
@@ -15,8 +15,8 @@ chrome.extension.sendMessage({}, function(response) {
       }
 
       function loop() {
-        // TODO: check for aborted game too
-        if(document.querySelector(".result")) {
+        if (document.querySelector(".result") ||
+            document.querySelector(".moves").innerText.indexOf("aborted")) {
           window.clearInterval(timer);
           console.log("game ended");
           document.querySelector("body").style.background = null;
@@ -36,7 +36,7 @@ chrome.extension.sendMessage({}, function(response) {
       function getSeconds(t) {
         t = t.split(":").reverse();
         var seconds = 0;
-        for(var i = t.length-1; i > 0; i--) {
+        for (var i = t.length-1; i > 0; i--) {
           seconds += parseFloat(t[i] * 60*i);
         }
         return seconds + parseFloat(t[0]);
