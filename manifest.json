@@ -1,0 +1,20 @@
+{
+  "name": "lichess clock color",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "https://github.com/quillford/clockcolor",
+  "permissions": [
+    "https://lichess.org/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://lichess.org/*"
+      ],
+      "js": [
+        "inject.js"
+      ]
+    }
+  ]
+}
