@@ -4,10 +4,10 @@ chrome.extension.sendMessage({}, function(response) {
   		clearInterval(readyStateCheckInterval);
 
       var timer;
-
+      // document.querySelector(".clock.running")
       if (document.querySelector(".header") &&
           document.querySelector(".header").innerText.indexOf("now") &&
-          document.querySelectorAll(".time").length == 2) {
+          document.querySelectorAll(".time").length >= 2) {
         timer = setInterval(loop, 10);
         console.log("active game detected");
       } else {
@@ -16,15 +16,16 @@ chrome.extension.sendMessage({}, function(response) {
 
       function loop() {
         if (document.querySelector(".result") ||
-            document.querySelector(".moves").innerText.indexOf("aborted")) {
+            document.querySelector(".moves").innerText.indexOf("aborted") > 0) {
           window.clearInterval(timer);
           console.log("game ended");
           document.querySelector("body").style.background = null;
           return;
         }
 
-        var opTime = getSeconds(document.querySelectorAll(".time")[0].innerText);
-        var time = getSeconds(document.querySelectorAll(".time")[1].innerText);
+        var l = document.querySelectorAll(".time").length;
+        var opTime = getSeconds(document.querySelectorAll(".time")[l-2].innerText);
+        var time = getSeconds(document.querySelectorAll(".time")[l-1].innerText);
 
         if (opTime < 5 || time < 5) {
           document.querySelector("body").style.background = opTime < time ? "green" : "red";
