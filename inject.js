@@ -4,10 +4,11 @@ chrome.extension.sendMessage({}, function(response) {
   		clearInterval(readyStateCheckInterval);
 
       var timer;
-      // document.querySelector(".clock.running")
+
       if (document.querySelector(".header") &&
           document.querySelector(".header").innerText.indexOf("now") &&
-          document.querySelectorAll(".time").length >= 2) {
+          document.querySelectorAll(".time").length >= 2 &&
+          document.querySelectorAll(".username")[1].innerText.indexOf(document.querySelector("#user_tag").innerText) >= 0) {
         timer = setInterval(loop, 10);
         console.log("active game detected");
       } else {
