@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="icon.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/quillford/Dropbox/projects/clockcolor/icon.png"
+   inkscape:export-xdpi="27.093336"
+   inkscape:export-ydpi="27.093336">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4609">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.60571384;stroke-opacity:1"
+         id="rect4611"
+         width="60"
+         height="125"
+         x="0"
+         y="172"
+         ry="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4609-2">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.60571384;stroke-opacity:1"
+         id="rect4611-9"
+         width="60"
+         height="125"
+         x="0"
+         y="172"
+         ry="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.38306678"
+     inkscape:cx="387.39487"
+     inkscape:cy="633.54283"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="369"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#cb4335;fill-opacity:0.9948718;stroke:none;stroke-width:6.88068819;stroke-opacity:1"
+       id="path4605-6"
+       cx="60"
+       cy="237"
+       r="60"
+       clip-path="url(#clipPath4609)"
+       transform="rotate(49.456958,190.5578,231.26995)" />
+    <circle
+       style="fill:#27ae60;fill-opacity:1;stroke:none;stroke-width:6.88068819;stroke-opacity:1"
+       id="path4605-1"
+       cx="60"
+       cy="237"
+       r="60"
+       clip-path="url(#clipPath4609-2)"
+       transform="rotate(-130.54304,57.36102,176.87148)" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-opacity:1"
+       id="path815"
+       cx="101.33837"
+       cy="135.78139"
+       r="48.795788" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.47809267;stroke-opacity:1"
+       id="rect817"
+       width="7"
+       height="51.384583"
+       x="97.838371"
+       y="96.085518"
+       ry="3.929409" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.15757632;stroke-opacity:1"
+       id="rect817-6"
+       width="7"
+       height="38.952023"
+       x="172.0983"
+       y="-22.731007"
+       ry="3.5"
+       transform="rotate(50.713937)" />
+  </g>
+</svg>

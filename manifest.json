@@ -4,6 +4,7 @@
   "manifest_version": 2,
   "description": "",
   "homepage_url": "https://github.com/quillford/clockcolor",
+  "icons": {"128": "icon.png"},
   "permissions": [
     "https://lichess.org/"
   ],
