@@ -5,3 +5,6 @@ chrome extension to help in bullet and ultrabullet time scrambles. background ch
 
 * red background when your opponent has more time
 * green when you have more time than your opponent
+
+![screenshot-red.png](screenshot-red.png)
+![screenshot-green.png](screenshot-green.png)
